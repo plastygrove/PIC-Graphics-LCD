@@ -22,3 +22,5 @@ Components Included
 1. CR2032 battery - For keeping the clock powered
 1. 10K Trimpot - To adjust the LCD contrast
 1. Resistors and capacitors - 1K, 10K resistors and 1uF capacitors for use with hardware debounced switches
+
+See circuit_pic.jpg for a quick photo of the circuit
