@@ -11,3 +11,14 @@ Current Features
 
 Here is a quick video:
 https://www.youtube.com/watch?v=VhGNs9608oI
+
+Components Included
+===================
+1. PIC18F4550 - Using this microcontroller because it has 40 Pins and I had a few lying around
+1. DS1307 Realtime Clock (RTC) - The clock chip for keeping the time
+1. 74HC595 Shift register - Using this for the data bus to the LCD. Instead of 8 pins for the data bus, I just need 3 now (data, clock and latch)
+1. 20/24 MHz crystal - Oscillator for the microcontroller
+1. 32.768 KHz crystal - Oscillator for the DS1307
+1. CR2032 battery - For keeping the clock powered
+1. 10K Trimpot - To adjust the LCD contrast
+1. Resistors and capacitors - 1K, 10K resistors and 1uF capacitors for use with hardware debounced switches
